@@ -24,10 +24,10 @@
 
         nav {
             bindings = <
-&trans                    &none     &none     &none      &none      &kp ESC                      &kp ESC    &kp BACKSPACE   &kp DELETE      &none   &none      &trans
-&sk LS(LA(LC(LEFT_GUI)))  &sk LGUI  &sk LALT  &sk LCTRL  &sk LSHFT  &kp ENTER                    &kp ENTER  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP  &kp RIGHT  &trans
-&trans                    &none     &none     &none      &none      &kp TAB    &trans    &trans  &kp TAB    &none           &none           &none   &none      &trans
-                                                         &trans     &trans     &trans    &mo 3   &trans     &trans
+&trans                    &none     &none     &kp LG(SPACE)  &none      &kp ESC                      &kp ESC    &kp BACKSPACE   &kp DELETE      &none   &none      &trans
+&sk LS(LA(LC(LEFT_GUI)))  &sk LGUI  &sk LALT  &sk LCTRL      &sk LSHFT  &kp ENTER                    &kp ENTER  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP  &kp RIGHT  &trans
+&trans                    &none     &none     &none          &none      &kp TAB    &trans    &trans  &kp TAB    &none           &none           &none   &none      &trans
+                                                             &trans     &trans     &trans    &mo 3   &trans     &trans
             >;
 
             label = "Navigation";
@@ -35,10 +35,10 @@
 
         sym {
             bindings = <
-&trans  &kp AT      &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE                          &kp SEMICOLON  &kp KP_PLUS   &kp KP_SUBTRACT  &kp KP_MULTIPLY   &kp KP_DIVIDE      &trans
-&trans  &kp DOLLAR  &kp AMPERSAND  &kp UNDERSCORE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &kp COLON      &kp KP_DOT    &kp KP_EQUAL     &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans
-&trans  &kp TILDE   &kp CARET      &kp GRAVE         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans    &trans  &none          &kp KP_COMMA  &kp QUESTION     &kp PIPE          &kp BACKSLASH      &trans
-                                                     &trans                &trans                 &mo 3     &trans  &trans         &trans
+&trans  &kp AT         &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE                          &kp SEMICOLON  &kp KP_PLUS   &kp KP_SUBTRACT  &kp KP_MULTIPLY    &kp POUND      &trans
+&trans  &kp AMPERSAND  &kp GRAVE      &kp UNDERSCORE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &kp COLON      &kp KP_DOT    &kp KP_EQUAL     &kp SINGLE_QUOTE   &kp PIPE       &trans
+&trans  &kp TILDE      &kp CARET      &kp DOLLAR        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans    &trans  &kp KP_SLASH   &kp KP_COMMA  &kp QUESTION     &kp DOUBLE_QUOTES  &kp BACKSLASH  &trans
+                                                        &trans                &trans                 &mo 3     &trans  &trans         &trans
             >;
 
             display-name = "Symbols";
