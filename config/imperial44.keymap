@@ -36,9 +36,9 @@
 
         sym {
             bindings = <
-&trans  &kp AT         &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE                          &kp SEMICOLON  &kp KP_PLUS   &kp KP_SUBTRACT  &kp KP_MULTIPLY    &kp POUND      &trans
-&trans  &kp AMPERSAND  &kp GRAVE      &kp UNDERSCORE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &kp COLON      &kp KP_DOT    &kp KP_EQUAL     &kp SINGLE_QUOTE   &kp PIPE       &trans
-&trans  &kp TILDE      &kp CARET      &kp DOLLAR        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans    &trans  &kp KP_SLASH   &kp KP_COMMA  &kp QUESTION     &kp DOUBLE_QUOTES  &kp BACKSLASH  &trans
+&trans  &kp AT         &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE                          &kp SEMICOLON  &kp PLUS   &kp MINUS     &kp STAR           &kp POUND      &trans
+&trans  &kp AMPERSAND  &kp GRAVE      &kp UNDERSCORE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &kp COLON      &kp DOT    &kp EQUAL     &kp SINGLE_QUOTE   &kp PIPE       &trans
+&trans  &kp TILDE      &kp CARET      &kp DOLLAR        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans    &trans  &kp SLASH      &kp COMMA  &kp QUESTION  &kp DOUBLE_QUOTES  &kp BACKSLASH  &trans
                                                         &trans                &trans                 &mo 3     &trans  &trans         &trans
             >;
 
