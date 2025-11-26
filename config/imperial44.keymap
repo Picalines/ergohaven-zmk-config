@@ -35,10 +35,10 @@
 
         sym {
             bindings = <
-&trans  &kp AT      &none          &kp CARET       &kp LESS_THAN         &kp GREATER_THAN                         &kp SEMICOLON  &kp KP_PLUS   &kp KP_SUBTRACT  &kp KP_MULTIPLY   &kp KP_DIVIDE      &trans
-&trans  &kp DOLLAR  &kp AMPERSAND  &kp UNDERSCORE  &kp LEFT_BRACE        &kp RIGHT_BRACE                          &kp COLON      &kp KP_DOT    &kp KP_EQUAL     &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans
-&trans  &kp TILDE   &none          &kp GRAVE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans    &trans  &none          &kp KP_COMMA  &kp QUESTION     &kp PIPE          &kp BACKSLASH      &trans
-                                                   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mo 3     &trans  &trans         &trans
+&trans  &kp AT      &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE                          &kp SEMICOLON  &kp KP_PLUS   &kp KP_SUBTRACT  &kp KP_MULTIPLY   &kp KP_DIVIDE      &trans
+&trans  &kp DOLLAR  &kp AMPERSAND  &kp UNDERSCORE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &kp COLON      &kp KP_DOT    &kp KP_EQUAL     &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &trans
+&trans  &kp TILDE   &kp CARET      &kp GRAVE         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans    &trans  &none          &kp KP_COMMA  &kp QUESTION     &kp PIPE          &kp BACKSLASH      &trans
+                                                     &trans                &trans                 &mo 3     &trans  &trans         &trans
             >;
 
             display-name = "Symbols";
