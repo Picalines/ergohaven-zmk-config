@@ -11,10 +11,10 @@
 
         base {
             bindings = <
-&none  &none  &kp W  &kp E  &kp R  &kp T                              &kp Y  &kp U  &kp I      &kp O    &none     &none
-&kp Q  &kp A  &kp S  &kp D  &kp F  &kp G                              &kp H  &kp J  &kp K      &kp L    &kp SEMI  &kp P
-&none  &kp Z  &kp X  &kp C  &kp V  &kp B        &kp LBKT    &kp RBKT  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SQT   &none
-                            &mo 5  &lt 1 SPACE  &none       &none     &mo 2  &mo 4
+&kp ESC  &none  &kp W  &kp E  &kp R  &kp T                                     &kp Y  &kp U  &kp I      &kp O    &none     &none
+&kp Q    &kp A  &kp S  &kp D  &kp F  &kp G                                     &kp H  &kp J  &kp K      &kp L    &kp SEMI  &kp P
+&none    &kp Z  &kp X  &kp C  &kp V  &kp B        &kp LBKT          &kp RBKT   &kp N  &kp M  &kp COMMA  &kp DOT  &kp SQT   &none
+                              &mo 5  &lt 1 SPACE  &kp LEFT_SHIFT    &kp RCTRL  &mo 2  &mo 4
             >;
 
             display-name = "Base";
@@ -25,10 +25,10 @@
 
         nav {
             bindings = <
-&trans  &none     &none     &kp LG(SPACE)   &none      &kp ESC                                        &kp ESC    &kp BACKSPACE   &kp DELETE      &none   &none      &trans
-&trans  &sk LGUI  &sk LALT  &sk LEFT_SHIFT  &sk LCTRL  &kp ENTER                                      &kp ENTER  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP  &kp RIGHT  &trans
-&trans  &none     &none     &none           &none      &kp TAB    &sk LS(LA(LC(LEFT_GUI)))    &trans  &kp TAB    &none           &none           &none   &none      &trans
-                                            &trans     &trans     &trans                      &trans  &mo 2      &trans
+&trans                &none     &none     &kp LG(SPACE)   &none      &kp ESC                      &kp ESC    &kp BACKSPACE   &kp DELETE      &none   &none      &trans
+&sk LS(LA(LC(LGUI)))  &sk LGUI  &sk LALT  &sk LEFT_SHIFT  &sk LCTRL  &kp ENTER                    &kp ENTER  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP  &kp RIGHT  &trans
+&trans                &none     &none     &none           &none      &kp TAB    &trans    &trans  &kp TAB    &none           &none           &none   &none      &trans
+                                                          &trans     &trans     &trans    &trans  &mo 2      &trans
             >;
 
             label = "Navigation";
