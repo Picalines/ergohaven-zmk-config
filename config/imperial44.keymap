@@ -28,7 +28,7 @@
 &trans  &none     &none     &kp LG(SPACE)   &none      &kp ESC                                        &kp ESC    &kp BACKSPACE   &kp DELETE      &none   &none      &trans
 &trans  &sk LGUI  &sk LALT  &sk LEFT_SHIFT  &sk LCTRL  &kp ENTER                                      &kp ENTER  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP  &kp RIGHT  &trans
 &trans  &none     &none     &none           &none      &kp TAB    &sk LS(LA(LC(LEFT_GUI)))    &trans  &kp TAB    &none           &none           &none   &none      &trans
-                                            &trans     &trans     &trans                      &mo 3   &trans     &trans
+                                            &trans     &trans     &trans                      &trans  &mo 2      &trans
             >;
 
             label = "Navigation";
@@ -39,7 +39,7 @@
 &trans  &none          &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE                          &kp SEMICOLON  &kp PLUS   &kp MINUS     &kp STAR           &none          &trans
 &kp AT  &kp AMPERSAND  &kp GRAVE      &kp UNDERSCORE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &kp COLON      &kp DOT    &kp EQUAL     &kp SINGLE_QUOTE   &kp PIPE       &kp POUND
 &trans  &kp TILDE      &kp CARET      &kp DOLLAR        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans    &trans  &kp SLASH      &kp COMMA  &kp QUESTION  &kp DOUBLE_QUOTES  &kp BACKSLASH  &trans
-                                                        &trans                &trans                 &mo 3     &trans  &trans         &trans
+                                                        &trans                &mo 3                  &trans    &trans  &trans         &trans
             >;
 
             display-name = "Symbols";
