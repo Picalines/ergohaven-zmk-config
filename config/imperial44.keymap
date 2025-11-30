@@ -40,7 +40,7 @@
             bindings = <
 &trans  &none       &kp GREATER_THAN   &kp EXCL      &kp LESS_THAN     &none                          &none      &kp LEFT_BRACE        &kp QUESTION  &kp RIGHT_BRACE        &none      &trans
 &trans  &kp DOLLAR  &kp RIGHT_BRACKET  &kp ASTERISK  &kp LEFT_BRACKET  &kp MINUS                      &kp PLUS   &kp LEFT_PARENTHESIS  &kp SLASH     &kp RIGHT_PARENTHESIS  &kp EQUAL  &trans
-&trans  &none       &kp TILDE          &kp POUND     &kp AMPS          &kp PERCENT  &trans    &trans  &kp CARET  &kp PIPE              &kp AT        &kp BACKSLASH          &none      &trans
+&trans  &kp GRAVE   &kp TILDE          &kp POUND     &kp AMPS          &kp PERCENT  &trans    &trans  &kp CARET  &kp PIPE              &kp AT        &kp BACKSLASH          &none      &trans
                                                      &trans            &lt 3 SPACE  &trans    &trans  &trans     &trans
             >;
 
