@@ -29,7 +29,7 @@
             bindings = <
 &trans  &none     &none     &kp LG(SPACE)   &none      &kp ESC                                                  &kp ESC    &kp BACKSPACE   &kp DELETE      &none   &none      &trans
 &trans  &sk LGUI  &sk LALT  &sk LEFT_SHIFT  &sk LCTRL  &kp ENTER                                                &kp ENTER  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP  &kp RIGHT  &trans
-&trans  &none     &none     &none           &none      &kp TAB    &sk LS(LA(LC(LGUI)))    &sk RS(RA(RC(RGUI)))  &kp TAB    &none           &none           &none   &none      &trans
+&trans  &none     &none     &none           &none      &kp TAB    &sk LS(LA(LC(LGUI)))    &sk RS(RA(RC(RGUI)))  &kp TAB    &kp HOME        &none           &none   &kp END    &trans
                                             &trans     &trans     &trans                  &trans                &mo 3      &trans
             >;
 
