@@ -11,7 +11,7 @@
 };
 
 &mt {
-    flavor = "hold-preferred";
+    flavor = "tap-unless-interrupted";
     tapping-term-ms = <175>;
 };
 
