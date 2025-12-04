@@ -19,7 +19,15 @@
     tapping-term-ms = <175>;
 };
 
-&mmv { acceleration-exponent = <0>; };
+&mmv {
+    acceleration-exponent = <0>;
+    time-to-max-speed-ms = <150>;
+};
+
+&msc {
+    acceleration-exponent = <0>;
+    time-to-max-speed-ms = <150>;
+};
 
 / {
     behaviors {
