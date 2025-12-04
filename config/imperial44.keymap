@@ -15,7 +15,7 @@
     tapping-term-ms = <175>;
 };
 
-&mmv { acceleration-exponent = <5>; };
+&mmv { acceleration-exponent = <0>; };
 
 / {
     behaviors {
