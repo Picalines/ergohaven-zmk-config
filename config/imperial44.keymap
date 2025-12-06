@@ -130,7 +130,7 @@
 &trans  &none     &kp C_NEXT    &kp PAGE_UP     &kp C_PREVIOUS  &none                     &none  &kp BACKSPACE   &kp UP_ARROW     &kp DELETE       &none          &trans
 &trans  &none     &kp HOME      &kp PAGE_DOWN   &kp END         &none                     &none  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW  &none          &trans
 &trans  &sk LGUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &sk LCTRL       &none   &none     &none   &none  &sk RCTRL       &sk RIGHT_SHIFT  &sk RIGHT_ALT    &sk RIGHT_GUI  &trans
-                                                &trans          &trans  &trans    &trans  &mo 5  &trans
+                                                &trans          &trans  &trans    &trans  &mo 4  &trans
             >;
 
             label = "Navigation";
@@ -139,9 +139,9 @@
         symbols {
             bindings = <
 &trans  &none       &kp GREATER_THAN   &kp EXCL      &kp LESS_THAN     &none                             &none      &kp LEFT_BRACE        &kp QUESTION  &kp RIGHT_BRACE        &none      &trans
-&trans  &kp DOLLAR  &kp RIGHT_BRACKET  &kp ASTERISK  &kp LEFT_BRACKET  &kp MINUS                         &kp PLUS   &kp LEFT_PARENTHESIS  &kp SLASH     &kp RIGHT_PARENTHESIS  &kp EQUAL  &trans
-&trans  &kp TILDE   &kp GRAVE          &kp POUND     &kp AMPS          &kp PERCENT  &trans       &trans  &kp CARET  &kp PIPE              &kp AT        &kp BACKSLASH          &none      &trans
-                                                     &trans            &mo 5        &kp SPACE    &trans  &trans     &trans
+&trans  &kp DOLLAR  &kp RIGHT_BRACKET  &kp ASTERISK  &kp LEFT_BRACKET  &kp POUND                         &kp AT     &kp LEFT_PARENTHESIS  &kp SLASH     &kp RIGHT_PARENTHESIS  &kp EQUAL  &trans
+&trans  &kp TILDE   &kp GRAVE          &kp MINUS     &kp AMPS          &kp PERCENT  &trans       &trans  &kp CARET  &kp PIPE              &kp PLUS      &kp BACKSLASH          &none      &trans
+                                                     &trans            &mo 4        &kp SPACE    &trans  &trans     &trans
             >;
 
             display-name = "Symbols";
