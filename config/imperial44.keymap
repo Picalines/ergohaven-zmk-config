@@ -148,10 +148,10 @@
 
         symbols {
             bindings = <
-&trans  &none       &kp LESS_THAN     &kp QUESTION  &kp GREATER_THAN   &none                          &none      &kp LEFT_BRACE        &kp EXCL      &kp RIGHT_BRACE        &none      &trans
-&trans  &kp DOLLAR  &kp LEFT_BRACKET  &kp SLASH     &kp RIGHT_BRACKET  &kp POUND                      &kp AT     &kp LEFT_PARENTHESIS  &kp ASTERISK  &kp RIGHT_PARENTHESIS  &kp EQUAL  &trans
-&trans  &none       &kp TILDE         &kp MINUS     &kp AMPS           &kp PERCENT  &trans    &trans  &kp CARET  &kp PIPE              &kp PLUS      &kp BACKSLASH          &kp GRAVE  &trans
-                                                    &trans             &lt 4 SPACE  &trans    &trans  &trans     &trans
+&trans  &none       &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp LESS_THAN                    &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &none      &trans
+&trans  &kp DOLLAR  &kp AMPS          &kp SLASH       &kp EXCL              &kp AT_SIGN                      &kp POUND         &kp QUESTION           &kp ASTERISK     &kp PIPE           &kp EQUAL  &trans
+&trans  &none       &kp TILDE         &kp MINUS       &kp PERCENT           &kp BACKSLASH  &trans    &trans  &none             &kp GRAVE              &kp PLUS         &kp CARET          &none      &trans
+                                                      &trans                &lt 4 SPACE    &trans    &trans  &trans            &trans
             >;
 
             display-name = "Symbols";
@@ -159,10 +159,10 @@
 
         alt {
             bindings = <
-&trans  &trans  &mc_le  &trans       &mc_ge  &kp RU_CYRILLIC_IO                    &trans  &trans                     &trans  &trans  &trans           &trans
-&trans  &trans  &trans  &trans       &trans  &trans                                &trans  &trans                     &trans  &trans  &mc_d_arrow      &trans
-&trans  &trans  &trans  &mc_s_arrow  &trans  &trans              &trans    &trans  &trans  &kp RU_CYRILLIC_HARD_SIGN  &trans  &trans  &mc_triple_tick  &trans
-                                     &trans  &trans              &trans    &trans  &trans  &trans
+&trans  &kp RU_CYRILLIC_IO  &trans  &trans       &trans  &mc_le                    &mc_ge  &trans                     &trans  &trans           &trans       &trans
+&trans  &trans              &trans  &trans       &trans  &trans                    &trans  &trans                     &trans  &trans           &mc_d_arrow  &trans
+&trans  &trans              &trans  &mc_s_arrow  &trans  &trans  &trans    &trans  &trans  &kp RU_CYRILLIC_HARD_SIGN  &trans  &mc_triple_tick  &trans       &trans
+                                                 &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
