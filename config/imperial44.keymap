@@ -148,10 +148,10 @@
 
         symbols {
             bindings = <
-&trans  &none       &kp GREATER_THAN  &kp QUESTION  &kp LESS_THAN   &none                          &none      &kp LEFT_BRACKET      &kp EXCL      &kp RIGHT_BRACKET      &none      &trans
-&trans  &kp DOLLAR  &kp RIGHT_BRACE   &kp SLASH     &kp LEFT_BRACE  &kp POUND                      &kp AT     &kp LEFT_PARENTHESIS  &kp ASTERISK  &kp RIGHT_PARENTHESIS  &kp EQUAL  &trans
-&trans  &none       &kp TILDE         &kp MINUS     &kp AMPS        &kp PERCENT  &trans    &trans  &kp CARET  &kp PIPE              &kp PLUS      &kp BACKSLASH          &kp GRAVE  &trans
-                                                    &trans          &lt 4 SPACE  &trans    &trans  &trans     &trans
+&trans  &none       &kp GREATER_THAN   &kp QUESTION  &kp LESS_THAN     &none                          &none      &kp LEFT_BRACE        &kp EXCL      &kp RIGHT_BRACE        &none      &trans
+&trans  &kp DOLLAR  &kp RIGHT_BRACKET  &kp SLASH     &kp LEFT_BRACKET  &kp POUND                      &kp AT     &kp LEFT_PARENTHESIS  &kp ASTERISK  &kp RIGHT_PARENTHESIS  &kp EQUAL  &trans
+&trans  &none       &kp TILDE          &kp MINUS     &kp AMPS          &kp PERCENT  &trans    &trans  &kp CARET  &kp PIPE              &kp PLUS      &kp BACKSLASH          &kp GRAVE  &trans
+                                                     &trans            &lt 4 SPACE  &trans    &trans  &trans     &trans
             >;
 
             display-name = "Symbols";
