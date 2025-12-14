@@ -123,7 +123,7 @@
 
         base {
             bindings = <
-&kp ESC  &kp Q          &kp W          &kp E           &kp R           &kp T                               &kp Y        &kp U           &kp I           &kp O          &kp P                  &tog 7
+&kp ESC  &kp Q          &kp W          &kp E           &kp R           &kp T                               &kp Y        &kp U           &kp I           &kp O          &kp P                  &mo 7
 &none    &hrm_l LGUI A  &hrm_l LALT S  &hrm_l LSHFT D  &hrm_l LCTRL F  &kp G                               &kp H        &hrm_r RCTRL J  &hrm_r RSHFT K  &hrm_r RALT L  &hrm_r RIGHT_GUI SEMI  &none
 &none    &kp Z          &kp X          &kp C           &kp V           &kp B        &kp LBKT     &kp RBKT  &kp N        &kp M           &kp COMMA       &kp DOT        &kp SQT                &none
                                                        &mo 5           &lt 1 SPACE  &kp MINUS    &kp TAB   &lt 2 ENTER  &mo 3
@@ -139,7 +139,7 @@
             bindings = <
 &trans  &none     &none     &none      &none      &none                     &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &none  &trans
 &trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &none                     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none  &trans
-&trans  &none     &none     &none      &none      &none   &none     &none   &kp K_BACK      &none           &none         &kp K_FORWARD    &none  &trans
+&trans  &none     &none     &none      &none      &none   &none     &none   &mkp MB4        &none           &none         &mkp MB5         &none  &trans
                                        &trans     &trans  &trans    &trans  &mo 4           &trans
             >;
 
@@ -179,7 +179,7 @@
             bindings = <
 &trans  &none     &none     &none      &none      &none                        &none           &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &none            &trans
 &trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &none                        &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_RIGHT  &trans
-&trans  &mo 6     &none     &none      &none      &none   &trans    &trans     &none           &none           &none           &none            &none            &trans
+&trans  &mo 6     &none     &none      &none      &none   &trans    &trans     &none           &mkp MB4        &none           &mkp MB5         &none            &trans
                                        &trans     &trans  &trans    &mkp LCLK  &mkp MCLK       &mkp RCLK
             >;
 
@@ -197,7 +197,7 @@
 
         cfg {
             bindings = <
-&bootloader  &none  &none  &none  &none  &none                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &tog 7
+&bootloader  &none  &none  &none  &none  &none                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none
 &none        &none  &none  &none  &none  &none                           &none         &none         &none         &out OUT_USB  &out OUT_BLE  &none
 &none        &none  &none  &none  &none  &none  &none    &bt BT_CLR_ALL  &none         &none         &none         &none         &none         &none
                                   &none  &none  &none    &none           &none         &none
