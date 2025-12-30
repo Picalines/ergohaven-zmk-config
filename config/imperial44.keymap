@@ -150,7 +150,7 @@
             bindings = <
 &trans  &none       &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp LESS_THAN                    &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &none      &trans
 &trans  &kp DOLLAR  &kp AMPS          &kp EXCL        &kp SLASH             &kp AT_SIGN                      &kp POUND         &kp ASTERISK           &kp QUESTION     &kp PIPE           &kp EQUAL  &trans
-&trans  &none       &kp TILDE         &kp PERCENT     &kp MINUS             &kp BACKSLASH  &trans    &trans  &none             &kp PLUS               &kp CARET        &kp GRAVE          &none      &trans
+&trans  &kp GRAVE   &kp TILDE         &kp PERCENT     &kp MINUS             &none          &trans    &trans  &none             &kp PLUS               &kp CARET        &kp BACKSLASH      &none      &trans
                                                       &trans                &lt 4 SPACE    &trans    &trans  &trans            &trans
             >;
 
@@ -159,19 +159,19 @@
 
         alt {
             bindings = <
-&trans  &kp RU_CYRILLIC_IO  &trans  &trans       &trans  &mc_le                    &mc_ge  &trans                     &trans  &trans           &trans       &trans
-&trans  &trans              &trans  &trans       &trans  &trans                    &trans  &trans                     &trans  &trans           &mc_d_arrow  &trans
-&trans  &trans              &trans  &mc_s_arrow  &trans  &trans  &trans    &trans  &trans  &kp RU_CYRILLIC_HARD_SIGN  &trans  &mc_triple_tick  &trans       &trans
+&trans  &kp RU_CYRILLIC_IO  &trans  &trans       &trans  &mc_le                    &mc_ge  &trans                     &trans  &trans  &trans       &trans
+&trans  &trans              &trans  &trans       &trans  &trans                    &trans  &trans                     &trans  &trans  &mc_d_arrow  &trans
+&trans  &mc_triple_tick     &trans  &mc_s_arrow  &trans  &trans  &trans    &trans  &trans  &kp RU_CYRILLIC_HARD_SIGN  &trans  &trans  &trans       &trans
                                                  &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
         numbers {
             bindings = <
-&trans  &none   &kp UNDER  &kp X   &kp B   &none                       &none   &kp B   &kp X   &kp UNDER  &none    &trans
-&trans  &kp N1  &kp N2     &kp N3  &kp N4  &kp N5                      &kp N6  &kp N7  &kp N8  &kp N9     &kp N0   &trans
-&trans  &kp F1  &kp F2     &kp F3  &kp F4  &kp F5  &kp F11    &kp F12  &kp F6  &kp F7  &kp F8  &kp F9     &kp F10  &trans
-                                   &trans  &trans  &trans     &trans   &trans  &trans
+&kp F7  &kp F8    &kp F9    &kp F10    &kp F11    &kp F12                    &kp X   &kp N7  &kp N8  &kp N9  &kp UNDER  &trans
+&trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &none                      &kp F   &kp N4  &kp N5  &kp N6  &kp N0     &trans
+&kp F1  &kp F2    &kp F3    &kp F4     &kp F5     &kp F6   &none     &none   &kp B   &kp N1  &kp N2  &kp N3  &kp DOT    &trans
+                                       &trans     &trans   &trans    &trans  &trans  &trans
             >;
         };
 
@@ -188,7 +188,7 @@
 
         mouse_slow {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans            &msc MOVE_Y(10)    &mmv MOVE_Y(-400)  &msc MOVE_X(-10)  &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans            &msc MOVE_Y(-10)   &mmv MOVE_Y(-400)  &msc MOVE_Y(10)   &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &msc MOVE_X(-10)  &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &msc MOVE_X(10)  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans            &trans             &trans             &trans            &trans           &trans
                                 &trans  &trans  &trans    &trans  &trans            &trans
