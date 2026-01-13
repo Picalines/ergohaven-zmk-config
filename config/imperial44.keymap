@@ -107,26 +107,24 @@
     combos {
         compatible = "zmk,combos";
 
-        caps_lock {
+        caps {
             bindings = <&kp CAPSLOCK>;
-            key-positions = <15 3>;
-            layers = <0>;
-            require-prior-idle-ms = <150>;
+            key-positions = <25 26>;
         };
 
-        escape {
-            bindings = <&kp ESC>;
-            key-positions = <16 4>;
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <28 27>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <19 7>;
+            key-positions = <33 34>;
         };
 
         delete {
             bindings = <&kp DELETE>;
-            key-positions = <20 8>;
+            key-positions = <35 36>;
         };
     };
 
