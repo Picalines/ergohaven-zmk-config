@@ -143,6 +143,8 @@
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
                 <&inc_dec_kp PG_UP PG_DN>;
+
+            label = "Normal";
         };
 
         navigation {
@@ -152,6 +154,8 @@
 &trans  &none     &none     &none      &none      &none   &none     &none   &mkp MB4        &none           &none         &mkp MB5         &none  &trans
                                        &trans     &trans  &trans    &trans  &trans          &trans
             >;
+
+            label = "Navigation";
         };
 
         symbols {
@@ -163,6 +167,7 @@
             >;
 
             display-name = "Symbols";
+            label = "Symbols";
         };
 
         macros {
@@ -172,6 +177,8 @@
 &trans  &mc_triple_tick     &trans  &mc_s_arrow  &trans         &trans  &trans    &trans  &trans  &kp RU_CYRILLIC_HARD_SIGN  &trans  &trans  &trans       &trans
                                                  &trans         &trans  &trans    &trans  &trans  &trans
             >;
+
+            label = "Macros";
         };
 
         numbers {
@@ -181,6 +188,8 @@
 &trans  &none     &none     &none      &none      &none   &none     &none  &kp B   &kp N1  &kp N2  &kp N3  &kp DOT    &trans
                                        &trans     &trans  &trans    &mo 5  &trans  &trans
             >;
+
+            label = "Numbers";
         };
 
         numbers-f {
@@ -190,6 +199,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
                                 &trans  &trans  &trans    &trans  &trans  &trans
             >;
+
+            label = "Numbers (F keys)";
         };
 
         mouse {
@@ -200,7 +211,8 @@
                                        &trans     &trans  &trans    &mkp LCLK  &mkp MCLK       &mkp RCLK
             >;
 
-            display-name = "Mouse";
+            display-name = " ";
+            label = "Mouse";
         };
 
         mouse-s {
@@ -210,6 +222,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans            &trans             &trans             &trans            &trans           &trans
                                 &trans  &trans  &trans    &trans  &trans            &trans
             >;
+
+            label = "Mouse (slow)";
         };
 
         config {
@@ -219,6 +233,8 @@
 &none        &none  &none  &none  &none  &none  &none    &bt BT_CLR_ALL  &none         &none         &none         &none         &none         &none
                                   &none  &none  &none    &none           &none         &none
             >;
+
+            label = "Power";
         };
 
         game {
@@ -228,6 +244,8 @@
 &none         &kp LCTRL  &kp Z  &kp X  &kp C   &kp V      &none        &none      &none      &none           &none           &none            &kp RCTRL  &none
                                        &mo 10  &kp SPACE  &kp ENTER    &kp ENTER  &kp SPACE  &none
             >;
+
+            label = "Game";
         };
 
         game-f {
@@ -237,6 +255,8 @@
 &trans  &kp G   &kp J   &kp I   &kp M   &kp T   &kp B     &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                 &trans  &trans  &trans    &trans  &trans  &trans
             >;
+
+            label = "Game (func)";
         };
     };
 };
