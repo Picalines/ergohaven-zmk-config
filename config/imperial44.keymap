@@ -110,21 +110,25 @@
         caps {
             bindings = <&kp CAPSLOCK>;
             key-positions = <25 26>;
+            layers = <0>;
         };
 
         esc {
             bindings = <&kp ESCAPE>;
             key-positions = <28 27>;
+            layers = <0>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <33 34>;
+            layers = <0>;
         };
 
         delete {
             bindings = <&kp DELETE>;
             key-positions = <35 36>;
+            layers = <0>;
         };
     };
 
