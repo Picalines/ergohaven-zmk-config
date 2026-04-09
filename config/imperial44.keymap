@@ -121,7 +121,7 @@
             bindings = <
 &trans  &kp RU_CYRILLIC_IO  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp LESS_THAN                    &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp RU_CYRILLIC_HARD_SIGN  &trans
 &trans  &kp DOLLAR          &kp AMPS          &kp EXCL        &kp SLASH             &kp AT_SIGN                      &kp POUND         &kp ASTERISK           &kp QUESTION     &kp PIPE           &kp EQUAL                  &trans
-&trans  &kp GRAVE           &kp TILDE         &kp PERCENT     &kp MINUS             &kp UNDER      &trans    &trans  &kp COLON         &kp PLUS               &kp LCTRL        &kp BSLH           &kp DOUBLE_QUOTES          &trans
+&trans  &kp GRAVE           &kp TILDE         &kp PERCENT     &kp MINUS             &kp UNDER      &trans    &trans  &kp COLON         &kp PLUS               &kp CARET        &kp BSLH           &kp DOUBLE_QUOTES          &trans
                                                               &trans                &trans         &trans    &trans  &trans            &trans
             >;
 
@@ -131,10 +131,10 @@
 
         numbers {
             bindings = <
-&trans  &none     &none     &none      &none      &none                     &kp X  &kp N7  &kp N8  &kp N9  &kp UNDER  &trans
-&trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &none                     &kp F  &kp N4  &kp N5  &kp N6  &kp N0     &trans
-&trans  &none     &none     &none      &none      &none   &none     &none   &kp B  &kp N1  &kp N2  &kp N3  &kp DOT    &trans
-                                       &trans     &trans  &trans    &trans  &mo 4  &trans
+&trans  &none     &none     &none      &none      &none                     &kp X   &kp N7  &kp N8  &kp N9  &kp UNDER  &trans
+&trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &none                     &kp F   &kp N4  &kp N5  &kp N6  &kp N0     &trans
+&trans  &none     &none     &none      &none      &none   &none     &none   &kp B   &kp N1  &kp N2  &kp N3  &kp DOT    &trans
+                                       &mo 4      &trans  &trans    &trans  &trans  &trans
             >;
 
             label = "Numbers";
