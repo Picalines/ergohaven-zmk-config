@@ -109,7 +109,7 @@
         navigation {
             bindings = <
 &trans  &sk LS(LA(LCTRL))  &sk LS(LG(LCTRL))   &sk LA(LG(LCTRL))  &sk LS(LA(LGUI))  &sk LG(LCTRL)                            &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &none  &trans
-&trans  &kp LGUI           &kp LALT            &kp LSHFT          &kp LCTRL         &sk LS(LA(LG(LCTRL)))                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none  &trans
+&trans  &sk LGUI           &sk LALT            &sk LSHFT          &sk LCTRL         &sk LS(LA(LG(LCTRL)))                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none  &trans
 &trans  &sk LG(LEFT_ALT)   &sk LA(LEFT_SHIFT)  &sk LS(LCTRL)      &sk LA(LCTRL)     &sk LG(LEFT_SHIFT)     &none     &none   &mkp MB4        &kp BACKSPACE   &kp DELETE    &mkp MB5         &none  &trans
                                                                   &trans            &trans                 &trans    &trans  &trans          &trans
             >;
@@ -132,7 +132,7 @@
         numbers {
             bindings = <
 &trans  &sk LS(LA(LCTRL))  &sk LS(LG(LCTRL))   &sk LA(LG(LCTRL))  &sk LS(LA(LEFT_GUI))  &sk LG(LCTRL)                            &kp X   &kp N7  &kp N8  &kp N9  &kp UNDER  &trans
-&trans  &kp LGUI           &kp LALT            &kp LSHFT          &kp LCTRL             &sk LS(LA(LG(LCTRL)))                    &kp F   &kp N4  &kp N5  &kp N6  &kp N0     &trans
+&trans  &sk LGUI           &sk LALT            &sk LSHFT          &sk LCTRL             &sk LS(LA(LG(LCTRL)))                    &kp F   &kp N4  &kp N5  &kp N6  &kp N0     &trans
 &trans  &sk LG(LEFT_ALT)   &sk LA(LEFT_SHIFT)  &sk LS(LCTRL)      &sk LA(LCTRL)         &sk LG(LEFT_SHIFT)     &none     &none   &kp B   &kp N1  &kp N2  &kp N3  &kp DOT    &trans
                                                                   &mo 4                 &trans                 &trans    &trans  &trans  &trans
             >;
