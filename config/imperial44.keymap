@@ -87,6 +87,29 @@
         };
     };
 
+    macros {
+        steam_menu: steam_menu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(TAB) &tog 8>;
+            label = "STEAM_MENU";
+        };
+
+        nvidia_record: nvidia_record {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(F9)>;
+            label = "NVIDIA_RECORD";
+        };
+
+        nvidia_clip: nvidia_clip {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(F10)>;
+            label = "NVIDIA_CLIP";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -187,10 +210,10 @@
 
         game {
             bindings = <
-&kp ESC       &kp TAB    &kp Q  &kp W  &kp E  &kp R                              &none      &none           &kp UP_ARROW    &none            &kp TAB    &none
-&kp LEFT_ALT  &kp LSHFT  &kp A  &kp S  &kp D  &kp F                              &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RSHFT  &tog 8
-&none         &kp LCTRL  &kp Z  &kp X  &kp C  &kp V      &none        &none      &none      &none           &none           &none            &kp RCTRL  &none
-                                       &mo 9  &kp SPACE  &kp ENTER    &kp ENTER  &kp SPACE  &none
+&kp ESC       &kp TAB    &kp Q  &kp W  &kp E    &kp R                          &none      &none           &kp UP_ARROW    &none            &none  &none
+&kp LEFT_ALT  &kp LSHFT  &kp A  &kp S  &kp D    &kp F                          &none      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &tog 8
+&none         &kp LCTRL  &kp Z  &kp X  &kp C    &kp V      &kp ENTER    &none  &none      &none           &none           &none            &none  &none
+                                       &kp TAB  &kp SPACE  &mo 9        &mo 9  &kp ENTER  &none
             >;
 
             label = "Game";
@@ -198,10 +221,10 @@
 
         game-f {
             bindings = <
-&trans  &kp N5  &kp N1  &kp N2  &kp N3  &kp N4                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp N0  &kp N6  &kp N7  &kp N8  &kp N9                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp G   &kp J   &kp I   &kp M   &kp T   &kp B     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans  &trans  &trans    &trans  &trans  &trans
+&steam_menu     &kp G   &kp N1  &kp N2  &kp N3  &kp T                     &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
+&nvidia_clip    &kp N0  &kp N4  &kp N5  &kp N6  &kp I                     &trans  &kp F4  &kp F5  &kp F6  &kp F11  &trans
+&nvidia_record  &kp B   &kp N7  &kp N8  &kp N9  &kp M   &kp J     &trans  &trans  &kp F7  &kp F8  &kp F9  &kp F12  &trans
+                                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
 
             label = "Game (func)";
