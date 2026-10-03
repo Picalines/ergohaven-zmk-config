@@ -65,25 +65,25 @@
         caps {
             bindings = <&kp CAPSLOCK>;
             key-positions = <25 26>;
-            layers = <0>;
+            layers = <0 10>;
         };
 
         lang_switch {
             bindings = <&kp LG(SPACE)>;
             key-positions = <28 27>;
-            layers = <0>;
+            layers = <0 10>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <33 34>;
-            layers = <0>;
+            layers = <0 10>;
         };
 
         delete {
             bindings = <&kp DELETE>;
             key-positions = <35 36>;
-            layers = <0>;
+            layers = <0 10>;
         };
     };
 
@@ -244,6 +244,8 @@
 &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &none
                                           &trans  &trans  &trans    &trans  &trans  &trans
             >;
+
+            label = "Game (temp normal)";
         };
     };
 };
